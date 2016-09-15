@@ -4,8 +4,8 @@ Project Description:
 This project involves creating at least 3 richly structured HTML pages 
 that will form the foundations of a professional web presence for myself. 
 
-Project Goals
-Produce modern standards-compliant HTML pages
-Write valid, well-formed semantic HTML
-Effectively comment on and format source code for maximum readability
-Track the development of a project over time and collaborate with others using version control
+Project Goals:
+1.Produce modern standards-compliant HTML pages
+2.Write valid, well-formed semantic HTML
+3.Effectively comment on and format source code for maximum readability
+4.Track the development of a project over time and collaborate with others using version control
