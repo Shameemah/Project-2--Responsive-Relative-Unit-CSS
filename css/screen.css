@@ -8,7 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
-/* Setting type to a minor third modular scale
+/* Setting type to a minor third modular scale - 4:3
 http://www.modularscale.com/?18&px&1.2&web&text */
 
 html {
@@ -35,4 +35,11 @@ li {
 
 li:last-child {
   padding-bottom: 0;
+}
+
+/* ===== MODULAR STYLES ===== */
+
+/* ===== STATE STYLES ===== */
+@media screen and (min-width: 545px) {
+
 }
