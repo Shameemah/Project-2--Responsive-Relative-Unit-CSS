@@ -14,6 +14,9 @@ http://www.modularscale.com/?18&px&1.2&web&text */
 html {
   font-size: 1.125em;  /* 18px */
   line-height: 1.222em;  /* 22px @ 18px = 1.2222 */
+  color: #222;
+  background-color: #EEE;
+  padding: 1.222em 0.916em; /* 16.5px */
 }
 
 h1 {
