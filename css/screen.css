@@ -11,7 +11,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Setting type to a minor third modular scale
 http://www.modularscale.com/?18&px&1.2&web&text */
 
-body {
+html {
   font-size: 1.125em;  /* 18px */
   line-height: 1.222em;  /* 22px @ 18px = 1.2222 */
 }
