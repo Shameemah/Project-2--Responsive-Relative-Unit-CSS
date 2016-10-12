@@ -37,6 +37,10 @@ li:last-child {
   padding-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ===== */
