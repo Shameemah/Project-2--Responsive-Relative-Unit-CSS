@@ -14,14 +14,16 @@ http://www.modularscale.com/?18&px&1.2&web&text */
 html {
   font-size: 1.125em;  /* 18px */
   line-height: 1.222em;  /* 22px @ 18px = 1.2222 */
-  color: #222;
-  background-color: #EEE;
-  padding: 1.222em 0.916em; /* 16.5px */
+  color: #262526;
+  background-color: #f3f3f3;
+  font-family: "Calibri", sanserif;
 }
 
 h1 {
-  font-size: 1.728em; /*31.104px/18px */
-  line-height: 1.415em;  /* 44px @ 31.104px = 1.415em */
+  font-size: 1.333em; /*23.994px/18px */
+  line-height: 1.333em;  /* 31.984 @ 23.994px */
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 p,
@@ -39,13 +41,26 @@ li:last-child {
 
 a {
   text-decoration: none;
+  color: #d7d8da;
 }
 
 img {
   max-width: 100%;
 }
 
+header {
+  background-color: #262526;
+}
+
+figure {
+  padding: 1.222em 0;
+}
+
+
 /* ===== LAYOUT STYLES ===== */
+#page {
+  padding: 1.222em 0.916em; /* 16.5px */
+}
 #mypicture {
   margin-left: -1.222em;
   margin-right: -1.222em;
@@ -56,9 +71,41 @@ img {
   padding-right: 1.222em;
 }
 
+header {
+  margin: 0 -1.222em;
+  margin-top: -1.222em;
+  padding: 1.222em;
+  padding-bottom: 0;
+}
+
 /* ===== MODULAR STYLES ===== */
 #mypicture {
   display: block;
+}
+
+h1 a {
+  color: #d7d8da;
+}
+
+header li {
+  color: #7f8084;
+}
+
+#school {
+  font-weight: bold;
+}
+
+a:hover {
+  color: #f3f3f3;
+}
+
+#navbar ul li {
+  display: inline;
+  padding-right: 7%;
+}
+
+#navbar ul li:last-child {
+  padding-right:0;
 }
 
 
