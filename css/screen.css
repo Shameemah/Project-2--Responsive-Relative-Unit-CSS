@@ -14,17 +14,34 @@ http://www.modularscale.com/?18&px&1.2&web&text */
 html {
   font-size: 1.125em;  /* 18px */
   line-height: 1.222em;  /* 22px @ 18px = 1.2222 */
-  color: #262526;
+  color: #4c4c4c;
   background-color: #f3f3f3;
   font-family: Gotham, sans-serif;
   font-weight: 100;
 }
 
 h1 {
-  font-size: 2em; /*23.994px/18px */
-  line-height: 1.333em;  /* 31.984 @ 23.994px */
+  font-size: 2em; /*36px/18px */
+  line-height: 1.222em;  /* 44 @ 36px */
+  letter-spacing: 0.125em;
   text-transform: uppercase;
-  font-weight: 550;
+  font-weight: 500;
+}
+
+h2 {
+  padding: 0.611em 0;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333333;
+}
+
+p {
+  font-size: 0.888em;
+}
+
+h2:first-child {
+  padding-top: 1.222em;
 }
 
 p,
@@ -48,29 +65,32 @@ img {
 
 header {
   background: url(../img/headerphoto-5472-50.jpg) #262526;
-  background-size: auto 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-repeat: no-repeat;
   text-align: left;
 }
 
 figure {
-  padding: 1.222em 0;
+  padding-top: 1.222em;
 }
 
+footer {
+  margin: -1.222em -0.916em;
+  padding: 1.222em 0.916em;
+  background-color: #cccccc;
+}
 
 /* ===== LAYOUT STYLES ===== */
 #page {
   padding: 1.222em 0.916em; /* 16.5px */
 }
 
-#mypicture {
-  margin-left: -0.916em;
-  margin-right: -0.916em;
-}
-
 #mypicture figcaption {
-  padding-left: 0.916em;
-  padding-right: 0.916em;
+  text-align: center;
+  font-size: 0.666em;
 }
 
 header {
@@ -112,17 +132,17 @@ header li:last-child {
 }
 
 nav a:hover {
-  color: #000;
   text-decoration: underline;
   
 }
 
 #navbar ul li {
   text-transform: uppercase;
+  letter-spacing: 0.125em;
 }
 
 .bio {
-  padding-top: 6em;
+  padding-top: 7em;
 }
 
 .summary {
@@ -130,29 +150,32 @@ nav a:hover {
 }
 
 #scroll {
-  padding-top: 15em;
+  padding-top: 14em;
   margin-bottom: -6em;
   font-size: 0.75em;
   text-align: center;
 }
 
 /* ===== STATE STYLES ===== */
-@media screen and (min-width: 703px) {
-  header {
-    background-size: 100% 100%;
-  }
-}
 @media screen and (min-width: 768px) {
-  header {
-    background-size: 100% auto;
-  }
-  
-  #page {
-    padding: 0.916em;
-  }
 
   header {
     padding-bottom: -1.222em;
+    background: url(../img/headerphoto-5472-50-brighter.jpg) #262526;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    font-size: 2.222em;
+  }
+  
+  .bio {
+  padding-left: 1.832em;
+  padding-top: 7em;
   }
 
   #mypicture {
@@ -160,17 +183,12 @@ nav a:hover {
     padding-right: 0.916em;
   }
 
-  #navbar ul {
-    text-align: center;
-  }
-
   #navbar ul li {
-    display: inline;
     padding: 1.222em 5%;
     margin: 0.916em;
   }
 
-  #active {
-    background-color: #f3f3f3;
+  header li {
+    color: #ffffff;
   }
 }
