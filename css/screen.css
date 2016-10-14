@@ -29,7 +29,7 @@ h1 {
 }
 
 h2 {
-  padding: 0.611em 0;
+  padding-top: 0.611em;
   letter-spacing: 0.125em;
   text-transform: uppercase;
   font-weight: 600;
@@ -64,7 +64,7 @@ img {
 }
 
 header {
-  background: url(../img/headerphoto-5472-50.jpg) #262526;
+  background: url(../img/headerphoto1-3284-30.jpg) #262526;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -74,13 +74,15 @@ header {
 }
 
 figure {
-  padding-top: 1.222em;
+  padding-top: 0.6111em;
 }
 
 footer {
-  margin: -1.222em -0.916em;
+  margin: -2em -1.4em;
   padding: 1.222em 0.916em;
-  background-color: #cccccc;
+  background-color: #e5e5e5;
+  color: #7f7f7f;
+  font-size: 0.666em;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -106,7 +108,11 @@ header {
   padding: 0.916em;
   padding-left: 1.832em;
   margin: -0.458em;
-  font-size: 0.6666em; /* 12px @ 18px */
+  font-size: 0.5555em; /* 12px @ 18px */
+}
+
+.goals {
+  padding-bottom: 0.6111em;
 }
 
 /* ===== MODULAR STYLES ===== */
@@ -128,7 +134,7 @@ header li:last-child {
 
 
 #school {
-  color: #4c4c4c;
+  color: #b2b2b2;
 }
 
 nav a:hover {
@@ -142,7 +148,7 @@ nav a:hover {
 }
 
 .bio {
-  padding-top: 7em;
+  padding-top: 9em;
 }
 
 .summary {
@@ -156,12 +162,30 @@ nav a:hover {
   text-align: center;
 }
 
+.hobbies h2{
+  padding-bottom: 0.6111em;
+}
+.hobbies li {
+  font-size: 0.888em;
+  margin-top: -0.458em;
+  margin-bottom: -0.458em;
+}
+
 /* ===== STATE STYLES ===== */
+@media screen and (min-width: 360px) {
+  #navbar ul li {
+  font-size: 0.666em; /* 12px @ 18px */
+  }
+  }
+  
 @media screen and (min-width: 768px) {
 
+  main {
+    margin: 1.222em 1.832em;
+  }
   header {
     padding-bottom: -1.222em;
-    background: url(../img/headerphoto-5472-50-brighter.jpg) #262526;
+    background: url(../img/headerphoto1-3284-30-brighter.jpg) #262526;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -178,11 +202,6 @@ nav a:hover {
   padding-top: 7em;
   }
 
-  #mypicture {
-    padding-left: 0.916em;
-    padding-right: 0.916em;
-  }
-
   #navbar ul li {
     padding: 1.222em 5%;
     margin: 0.916em;
@@ -191,4 +210,38 @@ nav a:hover {
   header li {
     color: #ffffff;
   }
+  
+  footer {
+   padding: 1.222em 1.832em;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    margin: 1.222em 14em;
+    text-align: center;
+    
+  }
+  
+  h1 {
+  font-size: 2.444em; /*44px/18px */
+  }
+  
+  #navbar ul li {
+    font-size: 0.777em; /* 14px @ 18px */
+  }
+  
+  .summary {
+    font-size: 1.222em;
+    margin-bottom: -0.3055em;;
+  }
+  
+  #school {
+    font-size: 1.222em;
+  }
+
+  footer {
+    text-align: center;
+  }
+  
 }
