@@ -165,10 +165,27 @@ nav a:hover {
 .hobbies h2{
   padding-bottom: 0.6111em;
 }
+
 .hobbies li {
   font-size: 0.888em;
   margin-top: -0.458em;
   margin-bottom: -0.458em;
+}
+
+#github {
+  color: #4c4c4c;
+}
+
+#github:hover {
+  text-decoration: underline;
+}
+
+#quote1 {
+  font-style: italic;
+}
+
+#quote2 {
+  font-style: italic;
 }
 
 /* ===== STATE STYLES ===== */
@@ -220,7 +237,6 @@ nav a:hover {
   main {
     margin: 1.222em 14em;
     text-align: center;
-    
   }
   
   h1 {
