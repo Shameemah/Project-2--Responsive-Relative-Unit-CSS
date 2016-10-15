@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
+    <title>Shameemah: Home</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <link rel="stylesheet" media="screen" href="/css/screen.css" />
   </head>
   
   <body>
-    <header class="header">
-      <h1>Shameemah Fuseini-Codjoe</h1>
-        <nav class="navbar">
+    <div id="page">
+      <header class="header">
+      <!-- Nav Bar -->
+        <nav id="navbar">
           <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/resume">Resume</a></li>
-            <li><a href="/portfolio">Portfolio</a></li>
+          	<li><a href="/portfolio">Portfolio</a></li>
+          	<li><a href="/resume">Resume</a></li>
+          	<li id="active"><a href="/about">About</a></li>
+            <li><a href="/index.html">Home</a></li>
           </ul>
         </nav>
-    </header>
+        <!-- Contact info -->
+        <section class="bio">
+          <h1><a href="/index.html">Shameemah Fuseini-Codjoe</a></h1>
+          <ul class="shortbio">
+            <li id="school">Student at Illinois Institute of Technology</li>
+            <li id="quote1" class="summary">"I've learned that people will forget what you said, people will forget what you did,</li>
+            <li id="quote2" class="summary">but people will never forget how you made them feel."</li>
+            <li class="summary">- Maya Angelou</li>
+            <li id="scroll"><a href="#scrolldown">Scroll down to see more</a></li>
+          </ul>
+        </section>
+      </header>
+        
+      <main id="scrolldown" class="main">
+        <section class="goals">
+          <h2>Overview</h2>
+          <p>
+          Welcome to my first website! This website contains my digital portfolio, resume and a little information about who I am. In the future, I hope to include a blog and a photography page. For anyone interested in the technical tools used to build the website, the Github repository lives <a id="github" href="https://github.com/Shameemah/Project-2--Responsive-Relative-Unit-CSS">here.</a> 
+          </p>
+        </section>
+      </main>
     
-    <footer class="footer">
-      Site Design by Shameemah Fuseini-Codjoe
-      Copyright © Shameemah Fuseini-Codjoe All rights reserved.
-    </footer>
+      <footer class="footer">
+        Site content and design by Shameemah Fuseini-Codjoe.
+        Copyright © 2016 Shameemah Fuseini-Codjoe All rights reserved.
+      </footer>
+    </div>
   </body>
 </html>
-
-
