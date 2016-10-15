@@ -26,9 +26,11 @@ h1 {
   letter-spacing: 0.125em;
   text-transform: uppercase;
   font-weight: 500;
+  color: #fff;
 }
 
-h2 {
+h2,
+h3 {
   padding-top: 0.611em;
   letter-spacing: 0.125em;
   text-transform: uppercase;
@@ -36,11 +38,17 @@ h2 {
   color: #333333;
 }
 
+h4 {
+  color: #49311c;
+  font-weight: 500;
+}
+
 p {
   font-size: 0.888em;
 }
 
-h2:first-child {
+h2:first-child,
+h3:first-child {
   padding-top: 1.222em;
 }
 
@@ -172,6 +180,9 @@ nav a:hover {
   margin-bottom: -0.458em;
 }
 
+.publications {
+  margin-bottom: 1.222em;
+}
 #github {
   color: #4c4c4c;
 }
@@ -231,12 +242,15 @@ nav a:hover {
   footer {
    padding: 1.222em 1.832em;
   }
+  
+  .date {
+  float: right;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   main {
     margin: 1.222em 14em;
-    text-align: center;
   }
   
   h1 {
