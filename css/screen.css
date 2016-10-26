@@ -15,7 +15,7 @@ html {
   font-size: 1.125em;  /* 18px */
   line-height: 1.222em;  /* 22px @ 18px = 1.2222 */
   color: #4c4c4c;
-  background-color: #f3f3f3;
+  background-color: #f6f6f5;
   font-family: Gotham, sans-serif;
   font-weight: 100;
 }
@@ -88,7 +88,7 @@ figure {
 
 footer {
   padding: 0.611em 1.222em;
-  background-color: #e5e5e5;
+  background-color: rgba(239,238,236,0.8);
   color: #7f7f7f;
   font-size: 0.666em;
   position: fixed;
@@ -178,6 +178,10 @@ nav a:hover {
   margin-bottom: 1.222em;
 }
 
+.tools {
+  margin-bottom: -1.833em;
+}
+
 .activities li {
   font-size: 0.888em;
   margin-top: -0.6111em;
@@ -188,10 +192,6 @@ nav a:hover {
   font-size: 0.888em;
   margin-top: -1.222em;
   margin-bottom: 0.3055em;
-}
-
-.tools {
-  margin-bottom: -1.833em;
 }
 
 .features,
@@ -206,12 +206,28 @@ nav a:hover {
   list-style-position: inside;
 }
 
+.technicalskills h4 {
+  margin-bottom: -1.222em;
+}
+
+.technicalskills ul .tools {
+  margin-bottom: 0.3055em;
+}
+
 header li:last-child {
   margin-bottom: 1.22em;;
 }
 
 .activities li:last-child {
   margin-bottom: -0.3055em;
+}
+
+.projects .tools li:last-child {
+  margin-bottom: -0.3055em;
+}
+
+.technicalskills h4:first-child {
+  margin-top: 0.611em;
 }
 
 #navbar ul li {
@@ -242,7 +258,7 @@ header li:last-child {
 }
 
 .date {
-  color: #7a5230;
+  color: #614126;
   font-weight: 400;
 }
 
