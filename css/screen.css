@@ -86,11 +86,14 @@ figure {
 }
 
 footer {
-  margin: -2em -1.4em;
-  padding: 1.222em 0.916em;
+  padding: 0.611em 1.222em;
   background-color: #e5e5e5;
   color: #7f7f7f;
   font-size: 0.666em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -100,7 +103,6 @@ footer {
 
 #mypicture figcaption {
   text-align: center;
-  font-size: 0.666em;
 }
 
 header {
@@ -111,12 +113,11 @@ header {
 }
 
 #navbar ul li {
-  display: inline;
+  display: inline-block;
   float: right;
   padding: 0.916em;
   padding-left: 1.832em;
   margin: -0.458em;
-  font-size: 0.5555em; /* 12px @ 18px */
 }
 
 .goals {
@@ -126,6 +127,10 @@ header {
 /* ===== MODULAR STYLES ===== */
 #mypicture {
   display: block;
+}
+
+#mypicture figcaption {
+  font-size: 0.666em;
 }
 
 header li {
@@ -153,6 +158,7 @@ nav a:hover {
 #navbar ul li {
   text-transform: uppercase;
   letter-spacing: 0.125em;
+  font-size: 0.5555em; /* 12px @ 18px */
 }
 
 .bio {
@@ -211,15 +217,10 @@ nav a:hover {
   main {
     margin: 1.222em 1.832em;
   }
-  header {
+  
+ header {
     padding-bottom: -1.222em;
-    background: url(../img/headerphoto1-3284-30-brighter.jpg) #262526;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-repeat: no-repeat;
-  }
+   }
   
   h1 {
     font-size: 2.222em;
@@ -240,12 +241,23 @@ nav a:hover {
   }
   
   footer {
-   padding: 1.222em 1.832em;
+   padding-left:  3.664em;
   }
-  
   .date {
   float: right;
   }
+}
+
+@media screen and (min-width:853px) {
+
+main {
+  margin-left: 7em;
+  margin-right: 7em;
+
+}
+
+footer {
+ text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
@@ -272,6 +284,6 @@ nav a:hover {
 
   footer {
     text-align: center;
+    
   }
-  
 }
