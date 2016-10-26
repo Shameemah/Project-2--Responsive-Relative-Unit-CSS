@@ -39,7 +39,7 @@ h3 {
 }
 
 h4 {
-  padding-bottom: 0.30555em;
+  padding-bottom: 0;
   color: #49311c;
   font-weight: 500;
 }
@@ -182,6 +182,28 @@ nav a:hover {
   font-size: 0.888em;
   margin-top: -0.6111em;
   margin-bottom: 0.3055em;
+}
+
+.proj-desc li {
+  font-size: 0.888em;
+  margin-top: -1.222em;
+  margin-bottom: 0.3055em;
+}
+
+.tools {
+  margin-bottom: -1.833em;
+}
+
+.features,
+.tools {
+  margin-top: 1.222em;
+}
+
+.features li,
+.tools li {
+  list-style-type: kannada;
+  margin-top: -1.222em;
+  list-style-position: inside;
 }
 
 header li:last-child {
