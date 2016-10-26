@@ -119,6 +119,11 @@ h3 {
   padding-bottom: 0.6111em;
 }
 
+h3:first-child,
+h3:last-child {
+  margin-bottom: -0.611em;
+}
+
 h2:first-child,
 h3:first-child {
   padding-top: 1.222em;
@@ -137,12 +142,23 @@ h3:first-child {
   font-size: 0.666em;
 }
 
-li:last-child {
-  padding-bottom: 0;
-}
-
 #school {
   color: #b2b2b2;
+}
+
+#scroll {
+  padding-top: 9em;
+  margin-bottom: -6em;
+  font-size: 0.75em;
+  text-align: center;
+}
+
+#pubs {
+  margin-bottom: 0.611em;
+}
+
+li:last-child {
+  padding-bottom: 0;
 }
 
 nav a:hover {
@@ -157,11 +173,8 @@ nav a:hover {
   margin-bottom: -0.611em;
 }
 
-#scroll {
-  padding-top: 9em;
-  margin-bottom: -6em;
-  font-size: 0.75em;
-  text-align: center;
+.anomaly {
+  margin-bottom: -0.3055em;
 }
 
 .hobbies h2 {
@@ -180,6 +193,10 @@ nav a:hover {
 
 .tools {
   margin-bottom: -1.833em;
+}
+
+.location {
+  font-weight: 400;
 }
 
 .activities li {
@@ -201,7 +218,7 @@ nav a:hover {
 
 .features li,
 .tools li {
-  list-style-type: kannada;
+  list-style-type: square;
   margin-top: -1.222em;
   list-style-position: inside;
 }
@@ -219,6 +236,10 @@ header li:last-child {
 }
 
 .activities li:last-child {
+  margin-bottom: -0.3055em;
+}
+
+.awards li:first-child {
   margin-bottom: -0.3055em;
 }
 
@@ -330,6 +351,10 @@ header li:last-child {
     font-size: 2.222em;
   }
 
+  h4 {
+    padding-top: 0.6111em;
+  }
+
   .bio {
     padding-left: 1.832em;
     padding-top: 7em;
@@ -347,9 +372,7 @@ header li:last-child {
   footer {
     padding-left: 3.664em;
   }
-  .date {
-    float: right;
-  }
+
 }
 
 @media screen and (min-width: 53.3125em) {
