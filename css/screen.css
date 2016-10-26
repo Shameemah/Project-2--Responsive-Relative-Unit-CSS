@@ -39,6 +39,7 @@ h3 {
 }
 
 h4 {
+  padding-bottom: 0.30555em;
   color: #49311c;
   font-weight: 500;
 }
@@ -93,7 +94,8 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  right: 0;
+  height: 1.666em;
+  width: 100%;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -110,6 +112,7 @@ header {
   margin-top: -1.222em;
   padding: 0.916em;
   padding-bottom: 4em;
+  height: 100%;
 }
 
 #navbar ul li {
@@ -118,6 +121,10 @@ header {
   padding: 0.916em;
   padding-left: 1.832em;
   margin: -0.458em;
+}
+
+h3 {
+  padding-bottom: 0.6111em;
 }
 
 .goals {
@@ -170,7 +177,7 @@ nav a:hover {
 }
 
 #scroll {
-  padding-top: 14em;
+  padding-top: 9em;
   margin-bottom: -6em;
   font-size: 0.75em;
   text-align: center;
@@ -204,6 +211,47 @@ nav a:hover {
 #quote2 {
   font-style: italic;
 }
+
+.date {
+  color: #7a5230;
+  font-weight: 400;
+}
+
+.socialmedia {
+  color: #4c4c4c;
+}
+
+.socialmedia:hover {
+  text-decoration: underline;
+}
+
+.degree {
+  margin-top: -0.6111em;
+  font-weight: 500;
+  font-size: 0.888em;
+  margin-bottom: -1.222em;
+}
+
+.specialization {
+  font-weight: 100;
+}
+
+.gpa {
+  display: inline-block;
+  font-size: 0.888em;
+  padding-right: 1.832em;
+  margin-top: -0.6111em;
+  font-weight: 400;
+  margin-bottom: -1.222em;
+
+}
+
+.gpanum {
+  font-weight: 100;
+  margin-bottom: -1.222em;
+}
+
+
 
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 360px) {
