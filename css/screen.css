@@ -6,8 +6,8 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 
-/* ===== BASE STYLES ===== */
 
+/* ===== BASE STYLES ===== */
 /* Setting type to a minor third modular scale - 4:3
 http://www.modularscale.com/?18&px&1.2&web&text */
 
@@ -44,13 +44,12 @@ h4 {
   font-weight: 500;
 }
 
-p {
-  font-size: 0.888em;
+li h4 {
+  margin-top: -0.611em;
 }
 
-h2:first-child,
-h3:first-child {
-  padding-top: 1.222em;
+p {
+  font-size: 0.888em;
 }
 
 p,
@@ -75,11 +74,12 @@ img {
 header {
   background: url(../img/headerphoto1-3284-30.jpg) #262526;
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-repeat: no-repeat;
   text-align: left;
+}
+
+header li {
+  color: #f5f5f5;
 }
 
 figure {
@@ -115,16 +115,13 @@ header {
   height: 100%;
 }
 
-#navbar ul li {
-  display: inline-block;
-  float: right;
-  padding: 0.916em;
-  padding-left: 1.832em;
-  margin: -0.458em;
-}
-
 h3 {
   padding-bottom: 0.6111em;
+}
+
+h2:first-child,
+h3:first-child {
+  padding-top: 1.222em;
 }
 
 .goals {
@@ -140,18 +137,9 @@ h3 {
   font-size: 0.666em;
 }
 
-header li {
-  color: #f5f5f5;
-}
-
 li:last-child {
   padding-bottom: 0;
 }
-
-header li:last-child {
-  margin-bottom: 1.22em;;
-}
-
 
 #school {
   color: #b2b2b2;
@@ -159,13 +147,6 @@ header li:last-child {
 
 nav a:hover {
   text-decoration: underline;
-  
-}
-
-#navbar ul li {
-  text-transform: uppercase;
-  letter-spacing: 0.125em;
-  font-size: 0.5555em; /* 12px @ 18px */
 }
 
 .bio {
@@ -183,7 +164,7 @@ nav a:hover {
   text-align: center;
 }
 
-.hobbies h2{
+.hobbies h2 {
   padding-bottom: 0.6111em;
 }
 
@@ -196,6 +177,32 @@ nav a:hover {
 .publications {
   margin-bottom: 1.222em;
 }
+
+.activities li {
+  font-size: 0.888em;
+  margin-top: -0.6111em;
+  margin-bottom: 0.3055em;
+}
+
+header li:last-child {
+  margin-bottom: 1.22em;;
+}
+
+.activities li:last-child {
+  margin-bottom: -0.3055em;
+}
+
+#navbar ul li {
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  font-size: 0.5555em; /* 12px @ 18px */
+  display: inline-block;
+  float: right;
+  padding: 0.916em;
+  padding-left: 1.832em;
+  margin: -0.458em;
+}
+
 #github {
   color: #4c4c4c;
 }
@@ -225,14 +232,14 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.degree {
+.sub-h {
   margin-top: -0.6111em;
   font-weight: 500;
   font-size: 0.888em;
   margin-bottom: -1.222em;
 }
 
-.specialization {
+.sub-subh {
   font-weight: 100;
 }
 
@@ -248,35 +255,50 @@ nav a:hover {
 
 .gpanum {
   font-weight: 100;
-  margin-bottom: -1.222em;
+  padding-top: -0.611em;
 }
 
+.company {
+  font-weight: 400;
+}
 
+.position, .company, .location {
+  margin-top: -0.6111em;
+}
+
+.company, .location {
+  margin-top: -0.6111em;
+  font-size: 0.888em;
+}
 
 /* ===== STATE STYLES ===== */
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 22.5em) {
   #navbar ul li {
-  font-size: 0.666em; /* 12px @ 18px */
+    font-size: 0.666em; /* 12px @ 18px */
   }
-  }
-  
-@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 48em) {
 
   main {
     margin: 1.222em 1.832em;
   }
-  
- header {
+
+  header {
     padding-bottom: -1.222em;
-   }
-  
+  }
+
   h1 {
     font-size: 2.222em;
   }
-  
+
   .bio {
-  padding-left: 1.832em;
-  padding-top: 7em;
+    padding-left: 1.832em;
+    padding-top: 7em;
+  }
+
+  header li {
+    color: #ffffff;
   }
 
   #navbar ul li {
@@ -284,54 +306,52 @@ nav a:hover {
     margin: 0.916em;
   }
 
-  header li {
-    color: #ffffff;
-  }
-  
   footer {
-   padding-left:  3.664em;
+    padding-left: 3.664em;
   }
   .date {
-  float: right;
+    float: right;
   }
 }
 
-@media screen and (min-width:853px) {
+@media screen and (min-width: 53.3125em) {
 
-main {
-  margin-left: 7em;
-  margin-right: 7em;
+  main {
+    margin-left: 7em;
+    margin-right: 7em;
+
+  }
+
+  footer {
+    text-align: center;
+  }
 
 }
 
-footer {
- text-align: center;
-}
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64em) {
   main {
     margin: 1.222em 14em;
   }
-  
+
   h1 {
-  font-size: 2.444em; /*44px/18px */
+    font-size: 2.444em; /*44px/18px */
   }
-  
+
   #navbar ul li {
     font-size: 0.777em; /* 14px @ 18px */
   }
-  
+
   .summary {
     font-size: 1.222em;
     margin-bottom: -0.3055em;;
   }
-  
+
   #school {
     font-size: 1.222em;
   }
 
   footer {
     text-align: center;
-    
   }
 }
+
