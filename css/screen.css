@@ -77,6 +77,9 @@ video {
 
 header {
   background: url(../img/headerphoto1-3284-30.jpg) #49311c;
+  -webkit-background-size: cover;
+  -moz-background-size: cover; 
+  -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: left;
