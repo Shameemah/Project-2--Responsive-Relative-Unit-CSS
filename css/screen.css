@@ -268,6 +268,11 @@ header li:last-child {
   margin-bottom: -0.3055em;
 }
 
+.tools li:last-child {
+  margin-bottom: -1.222em;
+}
+
+
 .technicalskills h4:first-child {
   margin-top: 0.611em;
 }
