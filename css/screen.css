@@ -45,7 +45,7 @@ h4 {
 }
 
 li h4 {
-  margin-top: -0.611em;
+  margin-top: -3.055%;
 }
 
 p {
@@ -102,9 +102,8 @@ footer {
   padding: 0.611em 1.222em;
   color: #7f7f7f;
   font-size: 0.666em;
-  margin-bottom: -2.444em;
-  margin-left: -1.322em;
-  margin-right: -1.322em;
+  margin-bottom: -12.22%;
+  margin-left: -6.61%;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -333,7 +332,6 @@ header li:last-child {
 
 .gpanum {
   font-weight: 100;
-  padding-top: -0.611em;
 }
 
 .company {
@@ -359,11 +357,7 @@ header li:last-child {
 @media screen and (min-width: 48em) {
 
   main {
-    margin: 1.222em 1.832em;
-  }
-
-  header {
-    padding-bottom: -1.222em;
+    margin: 2.5458% 3.8166%;
   }
 
   h1 {
@@ -396,8 +390,8 @@ header li:last-child {
 @media screen and (min-width: 53.3125em) {
 
   main {
-    margin-left: 7em;
-    margin-right: 7em;
+    margin-left: 13.13%;
+    margin-right: 13.13%;
 
   }
 
@@ -408,7 +402,7 @@ header li:last-child {
 
 @media screen and (min-width: 64em) {
   main {
-    margin: 1.222em 14em;
+    margin: 1.909% 21.875%;
   }
 
   h1 {
@@ -421,7 +415,7 @@ header li:last-child {
 
   .summary {
     font-size: 1.222em;
-    margin-bottom: -0.3055em;;
+    margin-bottom: -0.477344%;
   }
 
   #school {
