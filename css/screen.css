@@ -77,12 +77,8 @@ video {
 
 header {
   background: url(../img/headerphoto1-2000-10.jpg) #49311c;
-  -webkit-background-size: 100%; 
-  -moz-background-size: 100%; 
-  -o-background-size: 100%; 
-  background-size: 100%;
   -webkit-background-size: cover;
-  -moz-background-size: cover; 
+  -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
@@ -108,7 +104,7 @@ footer {
   font-size: 0.666em;
   margin-bottom: -2.444em;
   margin-left: -1.322em;
-  margin-right: -1.322em; 
+  margin-right: -1.322em;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -262,14 +258,13 @@ header li:last-child {
   margin-bottom: -0.3055em;
 }
 
-.projects .tools li:last-child {
-  margin-bottom: -0.3055em;
-}
-
 .tools li:last-child {
   margin-bottom: -1.222em;
 }
 
+.projects .tools li:last-child {
+  margin-bottom: -0.3055em;
+}
 
 .technicalskills h4:first-child {
   margin-top: 0.611em;
@@ -436,57 +431,7 @@ header li:last-child {
   footer {
     text-align: center;
   }
-  
-  @media screen and (min-width: 85em) {
-  main {
-    margin: 1.222em 14em;
-  }
-
-  h1 {
-    font-size: 2.444em; /*44px/18px */
-  }
-
-  #navbar ul li {
-    font-size: 0.777em; /* 14px @ 18px */
-  }
-
-  .summary {
-    font-size: 1.222em;
-    margin-bottom: -0.3055em;;
-  }
-
-  #school {
-    font-size: 1.222em;
-  }
-
-  footer {
-    text-align: center;
-  }
-  
-  @media screen and (min-width: 64em) {
-  main {
-    margin: 1.222em 14em;
-  }
-
-  h1 {
-    font-size: 2.444em; /*44px/18px */
-  }
-
-  #navbar ul li {
-    font-size: 0.777em; /* 14px @ 18px */
-  }
-
-  .summary {
-    font-size: 1.222em;
-    margin-bottom: -0.3055em;;
-  }
-
-  #school {
-    font-size: 1.222em;
-  }
-
-  footer {
-    text-align: center;
-  }
 }
+
+
 
