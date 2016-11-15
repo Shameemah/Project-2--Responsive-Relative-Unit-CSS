@@ -102,15 +102,13 @@ figcaption {
 }
 
 footer {
-  padding: 0.611em 1.222em;
   background-color: rgba(239,238,236,0.8);
+  padding: 0.611em 1.222em;
   color: #7f7f7f;
   font-size: 0.666em;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  height: 1.666em;
-  width: 100%;
+  margin-bottom: -2.444em;
+  margin-left: -1.322em;
+  margin-right: -1.322em; 
 }
 
 /* ===== LAYOUT STYLES ===== */
